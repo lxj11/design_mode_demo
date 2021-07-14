@@ -7,6 +7,6 @@ package com.example.design.mode.demo.simple.factory;
  */
 public interface Ball {
 
-    String create();
+    void create();
 
 }

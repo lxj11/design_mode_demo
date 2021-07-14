@@ -7,7 +7,7 @@ package com.example.design.mode.demo.simple.factory;
  */
 public class Soccer implements Ball{
     @Override
-    public String create() {
-        return "give you a soccer";
+    public void create() {
+        System.out.println("give you a soccer");
     }
 }

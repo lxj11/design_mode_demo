@@ -19,9 +19,8 @@ public class SimpleBallFactory {
 
     public static void main(String[] args) {
         Ball basketBall = SimpleBallFactory.createBall("basketBall");
+        basketBall.create();
         Ball soccer = SimpleBallFactory.createBall("soccer");
-        System.out.println(basketBall.create());
-        System.out.println(soccer.create());
-
+        soccer.create();
     }
 }
