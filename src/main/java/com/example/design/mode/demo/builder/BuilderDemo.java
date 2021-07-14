@@ -13,7 +13,5 @@ public class BuilderDemo {
         Decorator decorator = new Decorator(new XiaoMiBuilder());
         decorator.show();
         System.out.println(decorator);
-
-        SqlSessionFactoryBuilder
     }
 }
