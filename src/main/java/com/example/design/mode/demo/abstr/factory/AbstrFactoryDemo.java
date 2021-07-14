@@ -1,5 +1,7 @@
 package com.example.design.mode.demo.abstr.factory;
 
+import org.springframework.beans.factory.BeanFactory;
+
 /**
  * @author liuxiaojing
  * @description
@@ -14,6 +16,5 @@ public class AbstrFactoryDemo {
         AbstrBallFactory basketballFactory2 = new BasketballFactory2();
         basketballFactory2.createBall().create();
         basketballFactory2.createJournal().create();
-
     }
 }
