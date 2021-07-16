@@ -1,8 +1,6 @@
 package com.example.design.mode.demo.builder;
 
 
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-
 /**
  * @author liuxiaojing
  * @description
